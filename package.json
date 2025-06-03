@@ -15,6 +15,7 @@
     "rimraf": "5.0.1"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predev": "rimraf .parcel-cache dist",
     "dev": "parcel public/index.html",
     "build": "parcel build public/index.html",
